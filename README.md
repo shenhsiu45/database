@@ -14,4 +14,4 @@ Department and Grade：TAHRD 3rd Grade
   Week_3 09/16:Create Table in MySQL by yourself
   
 # Homework URL
-  HW_1成功畫面＆小筆記09/16: [HW1]()
+  HW_1成功畫面＆小筆記09/16: [HW1](https://youtu.be/zrrUc2S3sQw)
