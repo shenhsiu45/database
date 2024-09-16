@@ -1,6 +1,6 @@
 # 113-1 Database Systems
 
-Lecturer：蔡芸琤老師
+Lecturer：Yun-Cheng Tsai (Pecu)
 
 Name：ShenHsiu, Chang
 
