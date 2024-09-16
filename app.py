@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect
 import mysql.connector
 
 app = Flask(__name__)
@@ -12,22 +12,32 @@ db_config = {
 }
 
 def get_data_from_db():
-    # 連接 MySQL
     connection = mysql.connector.connect(**db_config)
     cursor = connection.cursor()
-
-    # 假設資料庫有一個 'users' 表
     cursor.execute("SELECT id, name FROM users")
     result = cursor.fetchall()
+    cursor.close()
+    connection.close()
+    return result
 
-    # 關閉連接
+def insert_data_to_db(name):
+    connection = mysql.connector.connect(**db_config)
+    cursor = connection.cursor()
+    cursor.execute("INSERT INTO users (name) VALUES (%s)", (name,))
+    connection.commit()
     cursor.close()
     connection.close()
 
-    return result
-
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
+    if request.method == 'POST':
+        # 獲取用戶輸入的名字並插入資料庫
+        name = request.form['name']
+        if name:
+            insert_data_to_db(name)
+        return redirect('/')  # 插入後重定向回首頁以更新顯示的資料
+    
+    # 顯示資料庫中的用戶
     users = get_data_from_db()
     return render_template('index.html', users=users)
 
