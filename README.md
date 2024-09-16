@@ -11,7 +11,7 @@ Department and Grade：TAHRD 3rd Grade
   
   Week_2 09/09:Install Flask and MySQL build in your computer
   
-  Week_3 09/16:Create Table in MySQL by your self
+  Week_3 09/16:Create Table in MySQL by yourself
   
 # Homework URL
   HW_1成功畫面＆小筆記09/16: [HW1]()
