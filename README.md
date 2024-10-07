@@ -6,7 +6,7 @@ Name：ShenHsiu, Chang
 
 Department and Grade：TAHRD 3rd Grade
 
----,
+---
 
 # Class Note
   Week_1 09/02: Course Introduction
