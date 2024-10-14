@@ -21,7 +21,8 @@ Department and Grade：TAHRD 3rd Grade
 |               | - Using mermaid to draw flowcharts.                                 |
 | Week_6 10/07 | MySQL Update                                                         |  
 |               | - Add search from teacher's example codes.                           |
-| Week_7 10/14 | MySQL JoinSelected                                                    |
+| Week_7 10/14 | MySQL JoinSelected                                                   |
+|               | - INNER, LEFT, RIGHT Join.                                  |
 | Week_8 10/21 |                                                                     |
 | Week_9 10/28 |                                                                     |
 | Week_10 11/04|                                                                     |
