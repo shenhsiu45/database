@@ -37,3 +37,5 @@ Department and Grade：TAHRD 3rd Grade
 ---
 # Homework URL
   HW_1成功畫面＆小筆記09/16: [HW1 Video](https://youtu.be/zrrUc2S3sQw) [HW1 Notes](https://ws5618-my.sharepoint.com/:b:/g/personal/samuel_ws5618_onmicrosoft_com/EWK9NaZB2h5Cu8W067G9HJABJA3YTVk3cKIArbF3Tjvzrg)
+
+  HW_2 ER Diagram & video: [HW2 ER Diagram](https://ws5618-my.sharepoint.com/:i:/g/personal/samuel_ws5618_onmicrosoft_com/EaHMfqpoEK9Mgr4QWrhLMSABPKjnLow7W1ylZqCJTnlVdQ?e=wLwcxz)[HW2 Video]
