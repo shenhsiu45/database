@@ -23,7 +23,7 @@ Department and Grade：TAHRD 3rd Grade
 |               | - Add search from teacher's example codes.                           |
 | Week_7 10/14 | MySQL JoinSelected                                                   |
 |               | - INNER, LEFT, RIGHT Join.                                  |
-| Week_8 10/21 |                                                                     |
+| Week_8 10/21 | Introduce & build NoSQL equipment with MongoDB                         |
 | Week_9 10/28 |                                                                     |
 | Week_10 11/04|                                                                     |
 | Week_11 11/11|                                                                     |
@@ -38,5 +38,4 @@ Department and Grade：TAHRD 3rd Grade
 # Homework URL
   HW_1成功畫面＆小筆記09/16: [HW1 Video](https://youtu.be/zrrUc2S3sQw) [HW1 Notes](https://ws5618-my.sharepoint.com/:b:/g/personal/samuel_ws5618_onmicrosoft_com/EWK9NaZB2h5Cu8W067G9HJABJA3YTVk3cKIArbF3Tjvzrg)
 
-  HW_2 ER Diagram & video: [HW2 ER Diagram](https://ws5618-my.sharepoint.com/:i:/g/personal/samuel_ws5618_onmicrosoft_com/EaHMfqpoEK9Mgr4QWrhLMSABPKjnLow7W1ylZqCJTnlVdQ?e=wLwcxz)    [HW2 Video](_
-)
+  HW_2 ER Diagram & video: [HW2 ER Diagram](https://ws5618-my.sharepoint.com/:i:/g/personal/samuel_ws5618_onmicrosoft_com/EaHMfqpoEK9Mgr4QWrhLMSABPKjnLow7W1ylZqCJTnlVdQ?e=wLwcxz)    [HW2 Video](https://youtu.be/c8yqD_pz-50)
