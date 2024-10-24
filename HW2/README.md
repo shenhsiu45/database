@@ -1,7 +1,6 @@
 Database System HW2
 
-Intordoce: 
-簡介：可輸入姓名，並儲存更改過的姓名與訂單數量，選擇刪除使用者功能，與可以選擇哪些資料須更改。
+Intordoce: Enter a name and save the updated name along with the order quantity. Users can also select to delete a user, and choose which data needs to be modified.
 
 users table 包含姓名,id,創建日期;
 order table 包含購買清單,購買者,買什麼,價格;
