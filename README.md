@@ -41,4 +41,4 @@ Department and Grade：TAHRD 3rd Grade
   HW_2 ER Diagram & video: [HW2 ER Diagram](https://ws5618-my.sharepoint.com/:i:/g/personal/samuel_ws5618_onmicrosoft_com/EaHMfqpoEK9Mgr4QWrhLMSABPKjnLow7W1ylZqCJTnlVdQ?e=wLwcxz)    [HW2 Video](https://youtu.be/c8yqD_pz-50)
 
   HW_3 video: [HW3 Video](https://youtu.be/RY4-zhgDFB4)
-  HW_3 video: [HW3 Video](https://youtu.be/mDxKLt6xAH8)
+  HW_4 video: [HW4 Video](https://youtu.be/mDxKLt6xAH8)
