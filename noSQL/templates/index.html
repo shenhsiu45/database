@@ -84,7 +84,6 @@
         tr:hover {
             background-color: #f1f1f1;
         }
-        /* 搜索表单居右对齐 */
         .search-bar {
             position: absolute; 
             top: 2px; 
@@ -101,7 +100,6 @@
     
     <div class="container">
         <div class="search-bar">
-            <!-- 搜索表单 -->
             <form method="GET" action="{{ url_for('search_bp.search_user') }}">
                 <input type="search" name="query" placeholder="Search by name">
                 <button type="submit">Search</button>
@@ -113,26 +111,36 @@
     <form method="POST" action="/add">
         <label for="name">Enter Your Name:</label>
         <input type="text" id="name" name="name" required>
+        
+        <!-- 新增 Age 欄位 -->
+        <label for="age">Enter Your Age:</label>
+        <input type="text" id="age" name="age" required>
+
         <button type="submit">Add User</button>
     </form>
 
     <!-- Display All Users with Delete and Update Option -->
     <h2>All Users</h2>
+    <button onclick="toggleRows()" id="toggleButton">Show All</button>
     <form method="POST" action="/delete">
         <table>
             <tr>
                 <th>Select</th>
                 <th>ID</th>
                 <th>Name</th>
+                <th>Age</th> <!-- 新增 Age 欄位 -->
                 <th>Created At</th>
                 <th>Update</th>
             </tr>
             {% for user in users %}
-            <tr>
-                <td><input type="checkbox" name="user_ids" value="{{ user['_id'] }}"></td> <!-- 使用 MongoDB 的 _id -->
+            <tr class="user-row" {% if loop.index > 3 %}style="display: none;"{% endif %}>
+                <td><input type="checkbox" name="user_ids" value="{{ user['_id'] }}"></td>
                 <td>{{ user['_id'] }}</td>
                 <td>
                     <input type="text" name="name_{{ user['_id'] }}" value="{{ user['name'] }}">
+                </td>
+                <td>
+                    <input type="text" name="age_{{ user['_id'] }}" value="{{ user['age'] }}"> <!-- Age 欄位 -->
                 </td>
                 <td>{{ user['created_at'] }}</td>
                 <td>
@@ -143,5 +151,23 @@
         </table>
         <button type="submit" style="background-color: red;">Delete Selected Users</button>
     </form>
+
+    <script>
+        let isShowingAll = false;
+
+        function toggleRows() {
+            const rows = document.querySelectorAll('.user-row');
+            const toggleButton = document.getElementById('toggleButton');
+
+            rows.forEach((row, index) => {
+                if (index >= 3) {
+                    row.style.display = isShowingAll ? 'none' : '';
+                }
+            });
+
+            toggleButton.textContent = isShowingAll ? 'Show All' : 'Hide All';
+            isShowingAll = !isShowingAll;
+        }
+    </script>
 </body>
 </html>
