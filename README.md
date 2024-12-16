@@ -29,14 +29,14 @@ Yun-Cheng Tsai (Pecu)
 | **Week 7**  | 10/14: MySQL Join                                             |
 |             | - INNER, LEFT, RIGHT JOIN                                     |
 | **Week 8**  | 10/21: Introduction to NoSQL with MongoDB                     |
-| **Week 9**  | 10/28:                                                        |
-| **Week 10** | 11/04:                                                        |
-| **Week 11** | 11/11:                                                        |
-| **Week 12** | 11/18:                                                        |
-| **Week 13** | 11/25:                                                        |
-| **Week 14** | 12/02:                                                        |
-| **Week 15** | 12/09:                                                        |
-| **Week 16** | 12/16:                                                        |
+| **Week 9**  | 10/28: NoSQL Create data                                      |
+| **Week 10** | 11/04: NoSQL Read data                                        |
+| **Week 11** | 11/11: NoSQL Update data                                      |
+| **Week 12** | 11/18: NoSQL Delete data                                      |
+| **Week 13** | 11/25: Create a final project that integrates a database with a corresponding website.(1) |
+| **Week 14** | 12/02: Create a final project that integrates a database with a corresponding website.(2) |
+| **Week 15** | 12/09: Create a final project that integrates a database with a corresponding website.(3) |
+| **Week 16** | 12/16: Create a final project that integrates a database with a corresponding website.(4) |
 
 ---
 
