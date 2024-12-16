@@ -1,45 +1,68 @@
 # 113-1 Database Systems
 
-Lecturer：Yun-Cheng Tsai (Pecu)
+### Lecturer
 
-Name：ShenHsiu, Chang
+Yun-Cheng Tsai (Pecu)
 
-Department and Grade：TAHRD 3rd Grade
+### Student Information
 
----
-# Class Note 
-  | Week          | Teaching content                                                       |
-|:-------------:|:---------------------------------------------------------------------|
-| Week_1 09/02 | Course Introduction                                                   |
-| Week_2 09/09 | Install Flask and MySQL build in your computer.                      |
-| Week_3 09/16 | Create Table in MySQL by yourself.                                  |
-| Week_4 09/23 | MySQL Read                                                           |  
-|               | - Separated the app.py into app.py, read.py, create.py.            |  
-|               | - Utilizing Blueprint in Flask.                                      |
-| Week_5 09/30 | MySQL Delete                                                         |  
-|               | - Using ngrok to share code.                                        |  
-|               | - Using mermaid to draw flowcharts.                                 |
-| Week_6 10/07 | MySQL Update                                                         |  
-|               | - Add search from teacher's example codes.                           |
-| Week_7 10/14 | MySQL JoinSelected                                                   |
-|               | - INNER, LEFT, RIGHT Join.                                  |
-| Week_8 10/21 | Introduce & build NoSQL equipment with MongoDB                         |
-| Week_9 10/28 |                                                                     |
-| Week_10 11/04|                                                                     |
-| Week_11 11/11|                                                                     |
-| Week_12 11/18|                                                                     |
-| Week_13 11/25|                                                                     |
-| Week_14 12/02|                                                                     |
-| Week_15 12/09|                                                                     |
-| Week_16 12/16|                                                                     |  
-
+- **Name**: ShenHsiu (慎修), Chang (張)
+- **Department and Grade**: TAHRD, 3rd Grade
 
 ---
-# Homework URL
-  HW_1成功畫面＆小筆記09/16: [HW1 Video](https://youtu.be/zrrUc2S3sQw) [HW1 Notes](https://ws5618-my.sharepoint.com/:b:/g/personal/samuel_ws5618_onmicrosoft_com/EWK9NaZB2h5Cu8W067G9HJABJA3YTVk3cKIArbF3Tjvzrg)
 
-  HW_2 ER Diagram & video: [HW2 ER Diagram](https://ws5618-my.sharepoint.com/:i:/g/personal/samuel_ws5618_onmicrosoft_com/EaHMfqpoEK9Mgr4QWrhLMSABPKjnLow7W1ylZqCJTnlVdQ?e=wLwcxz)    [HW2 Video](https://youtu.be/c8yqD_pz-50)
+## Class Notes
 
-  HW_3 video: [HW3 Video](https://youtu.be/RY4-zhgDFB4)
-  
-  HW_4 video: [HW4 Video](https://youtu.be/mDxKLt6xAH8)
+| **Week**    | **Teaching Content**                                          |
+| ----------- | ------------------------------------------------------------- |
+| **Week 1**  | 09/02: Course Introduction                                    |
+| **Week 2**  | 09/09: Install Flask and MySQL on your computer               |
+| **Week 3**  | 09/16: Create Table in MySQL by yourself                      |
+| **Week 4**  | 09/23: MySQL Read                                             |
+|             | - Separate `app.py` into `app.py`, `read.py`, and `create.py` |
+|             | - Utilize Blueprint in Flask                                  |
+| **Week 5**  | 09/30: MySQL Delete                                           |
+|             | - Use ngrok to share code                                     |
+|             | - Use mermaid to draw flowcharts                              |
+| **Week 6**  | 10/07: MySQL Update                                           |
+|             | - Add search functionality using teacher's example code       |
+| **Week 7**  | 10/14: MySQL Join                                             |
+|             | - INNER, LEFT, RIGHT JOIN                                     |
+| **Week 8**  | 10/21: Introduction to NoSQL with MongoDB                     |
+| **Week 9**  | 10/28:                                                        |
+| **Week 10** | 11/04:                                                        |
+| **Week 11** | 11/11:                                                        |
+| **Week 12** | 11/18:                                                        |
+| **Week 13** | 11/25:                                                        |
+| **Week 14** | 12/02:                                                        |
+| **Week 15** | 12/09:                                                        |
+| **Week 16** | 12/16:                                                        |
+
+---
+
+## Homework Submissions
+
+- **HW 1**: Successful Execution & Notes (09/16)
+
+  - [HW1 Video](https://youtu.be/zrrUc2S3sQw)
+  - [HW1 Notes](https://ws5618-my.sharepoint.com/\:b:/g/personal/samuel_ws5618_onmicrosoft_com/EWK9NaZB2h5Cu8W067G9HJABJA3YTVk3cKIArbF3Tjvzrg)
+
+- **HW 2**: ER Diagram & Video
+
+  - [HW2 ER Diagram](https://ws5618-my.sharepoint.com/\:i:/g/personal/samuel_ws5618_onmicrosoft_com/EaHMfqpoEK9Mgr4QWrhLMSABPKjnLow7W1ylZqCJTnlVdQ?e=wLwcxz)
+  - [HW2 Video](https://youtu.be/c8yqD_pz-50)
+
+- **HW 3**: [HW3 Video](https://youtu.be/RY4-zhgDFB4)
+
+- **HW 4**: [HW4 Video](https://youtu.be/mDxKLt6xAH8)
+
+---
+
+## Final Project
+
+- **Project**: Burger King Restaurant
+
+  - [GitHub Repository](https://github.com/shenhsiu45/DBG4)
+
+- **Presentation Video**: [Video](https://youtu.be/K4nSiKfCyqo)
+
